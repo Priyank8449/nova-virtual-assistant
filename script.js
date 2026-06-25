@@ -57,7 +57,7 @@ btn.addEventListener('click',()=>{
             btn.style.display="flex"
 
 
-    if(message.includes("hello")||message.includes("hello nova")){
+    if(message.includes("hello")||message.includes("hello nova")||message.includes("hi nova")){
         speak("hello  sir,how can I help  you")
     }
     else if(message.includes("who are you")||message.includes("hu r u")){
