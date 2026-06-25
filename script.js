@@ -66,19 +66,12 @@ btn.addEventListener('click',()=>{
     else if(message.includes("tumhara owner kaun hai")){
         speak("मेरा मालिक प्रियंक है")
     }
-    
-    
-    else if(message.includes("priyank ke papa ka naam kya hai")){
-        speak("प्रियंक के पापा का नाम राम गोपाल सिंह है")
-    }
-    else if(message.includes("priyank ki mummy ka naam kya hai")){
-        speak("प्रियंक के mummy का नाम malti devi है")
-    }
     else if(message.includes("who is priyank")||message.includes("Priyank kaun hai")){
         speak("Priyank is a full stack  developer , 3rd year student of univesity of petrolium  and energy studies ")
     }
     else if(message.includes("who is narendra modi")){
         speak(" narendra modi is the prime minister of india ")
+
     }
     else if(message.includes("open youtube")){
         speak("opening YouTube")
@@ -100,6 +93,30 @@ btn.addEventListener('click',()=>{
         speak("opening google")
         window.open("https://www.google.com/")
     }
+    else if(message.includes("open chat gpt")){
+        speak("opening chat gpt")
+        window.open("https://www.chatgpt.com/")
+    }
+    else if(message.includes("open gemini")){
+        speak("opening gemini")
+        window.open("https://gemini.google.com/app")
+    }
+    else if(message.includes("open font awesome")){
+        speak("opening font awesome")
+        window.open("https://fontawesome.com/")
+    }
+    else if(message.includes("open linkedin")){
+        speak("opening linkedin")
+        window.open("https://linkedin.com/")
+    }
+    else if(message.includes("open github")){
+        speak("opening github")
+        window.open("https://github.com/")
+    }
+    else if(message.includes("open portal")){
+        speak("opening upes portal")
+        window.open("https://myupes-beta.upes.ac.in/oneportal/app/auth/login")
+    }
     else if(message.includes("open calculator")){
         speak("opening calculator")
         window.open("calculator://")
@@ -109,6 +126,23 @@ btn.addEventListener('click',()=>{
         speak("opening vs code")
         window.open("vscode://")
     }
+    else if(message.includes("open spotify")){
+        speak("opening spotify")
+        window.open("spotify://")
+    }
+    else if(message.includes("open settings")){
+        speak("opening settings")
+        window.open("ms-settings://")
+    }
+    else if(message.includes("open spotify")){
+        speak("opening spotify")
+        window.open("spotify://")
+    }
+    else if(message.includes("open chats")){
+        speak("opening whatsapp")
+        window.open("whatsapp://")
+    }
+   
     else if(message.includes("what is time")||message.includes("time batao")){
         let  time=new Date().toLocaleString(undefined,{hour:"numeric",minute:"numeric"})
         speak(time)
