@@ -73,6 +73,10 @@ btn.addEventListener('click',()=>{
         speak(" narendra modi is the prime minister of india ")
 
     }
+    else if(message.includes("bye")){
+        speak("thanks for using ,bye ,take care")
+
+    }
     else if(message.includes("open youtube")){
         speak("opening YouTube")
         window.open("https://www.youtube.com/")
@@ -112,6 +116,14 @@ btn.addEventListener('click',()=>{
     else if(message.includes("open github")){
         speak("opening github")
         window.open("https://github.com/")
+    }
+    else if(message.includes("open leetcode")||message.includes("open lead code")){
+        speak("opening leetcode")
+        window.open("https://leetcode.com/")
+    }
+    else if(message.includes("play jay shri ram")){
+        speak("playing song")
+        window.open("https://open.spotify.com/artist/0nB5ZhVo6GjfuW3MgUxJ1A")
     }
     else if(message.includes("open portal")){
         speak("opening upes portal")
